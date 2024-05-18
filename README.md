@@ -22,8 +22,13 @@ This extension contributes the following settings:
 No issues yet!
 
 ## Release Notes
-### 1.0.0
+### 0.0.1
 Initial release of CodeHelper
+
+
+### 0.0.2
+Optimizing prompt for better and faster response
+
 ---
 
 ## Following extension guidelines
