@@ -53,5 +53,8 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.11.3"
-  }
+  },
+  "repository": "https://github.com/longlt201203/codehelper.git",
+  "author": "Le Thanh Long <longlt201203@gmail.com>",
+  "license": "MIT"
 }
