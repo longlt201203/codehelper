@@ -3,6 +3,7 @@
   "displayName": "codehelper",
   "description": "",
   "version": "0.0.1",
+  "publisher": "longlt201203",
   "engines": {
     "vscode": "^1.89.0"
   },
