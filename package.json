@@ -2,7 +2,7 @@
   "name": "codehelper",
   "displayName": "codehelper",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "longlt201203",
   "engines": {
     "vscode": "^1.89.0"
@@ -21,6 +21,10 @@
       {
         "command": "codehelper.document",
         "title": "CodeHelper: Document"
+      },
+      {
+        "command": "codehelper.askGemini",
+        "title": "CodeHelper: Ask Gemini"
       }
     ],
     "configuration": {
@@ -29,6 +33,10 @@
         "codehelper.googleApiKey": {
           "type": "string",
           "description": "Google API Key for calling Gemini API"
+        },
+        "codehelper.language": {
+          "type": "string",
+          "description": "Language for generating code"
         }
       }
     }

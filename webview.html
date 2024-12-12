@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gemini Output</title>
+
+    <style></style>
+  </head>
+  <body>
+    <div id="md-displayer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      let mdText = `# Gemini Output\n`;
+      const mdDisplayer = document.getElementById("md-displayer");
+      mdDisplayer.innerHTML = marked.parse(mdText);
+      window.addEventListener("message", (e) => {
+        const { text } = e.data;
+        mdText += text;
+        mdDisplayer.innerHTML = marked.parse(mdText);
+      });
+    </script>
+  </body>
+</html>

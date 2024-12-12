@@ -5,6 +5,7 @@ The "codehelper" extension is designed to enhance your coding experience by prov
 ## Features
 
 ### Documentation Generation
+
 Generates documentation for your code, including comments and external documentation, to make your projects well-documented and easy to understand.
 
 ## Requirements
@@ -15,18 +16,21 @@ Follow [this guideline](https://ai.google.dev/gemini-api/docs/api-key) from Goog
 
 This extension contributes the following settings:
 
-* `codehelper.googleApiKey`: Your Google API key
+- `codehelper.googleApiKey`: Your Google API key
+- `codehelper.language`: Gemini response language
 
 ## Known Issues
 
 No issues yet!
 
 ## Release Notes
+
 ### 0.0.1
+
 Initial release of CodeHelper
 
-
 ### 0.0.2
+
 Optimizing prompt for better and faster response
 
 ---
@@ -37,7 +41,7 @@ Ensure that you've read through the extensions guidelines and follow the best pr
 
 ## For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
